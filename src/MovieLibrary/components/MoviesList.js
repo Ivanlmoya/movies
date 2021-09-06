@@ -91,8 +91,8 @@ class SortingOptions extends Component {
     return (
       <select value={this.state.value} onChange={this.handleChange}>
         <option value=""></option>
-        <option value="name_asc">A -> Z</option>
-        <option value="name_desc">Z -> A</option>
+        <option value="name_asc">{'A -> Z'}</option>
+        <option value="name_desc">{'Z -> A'}</option>
         <option value="rating">Rating</option>
       </select>
     )
